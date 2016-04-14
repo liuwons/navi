@@ -1,0 +1,57 @@
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td{
+    padding: 0;
+    margin: 0;
+}
+
+a{border:none;}
+img{border:none;}
+li{list-style:none;}
+body{font:12px Arial,Helvetica,sans-serif,Simsun,"宋体";}
+
+.clear{clear:both;}
+.top{ width:100%; height:40px; padding-top:5px; background-color:#505050; }
+.topBar{ width:1000px; margin:0px auto;}
+.topBar h1{ font-size:13px; color:#80ff80; font-family:微软雅黑;}
+.topLogo{float:left;}
+.topName{float:left; margin-left:10px; line-height:35px;}
+.topName span{color:#8080ff; font-size:12px; font-weight:normal;}
+.topDomain{ color:#40ff80; font-size:13px; line-height:35px; margin-left:10px; float:left;}
+.topMenus{ float:right; margin-left:20px;}
+.topMenus a{ color:white; float:left; line-height:35px; width:60px; height:35px; text-align:center; position:relative; text-decoration:none; font-size:13px; font-family:微软雅黑;}
+.topMenus a:hover{background-color:white; color:#333; }
+.topQuickLink{ float:left; width:252px; height:35px; overflow:hidden;}
+.topQuickLinkTitle{ margin-left:20px;float:left;}
+.topQuickLinkTitle span{
+    background: url(imgs/image_main.gif) no-repeat -110px -60px;
+    color: #fff;
+    height: 19px;
+    width: 59px;
+    overflow: hidden;
+    text-indent: 4px;
+    line-height: 19px;
+    margin-right: 5px; margin-top:8px;
+    display: block;
+    float: left;
+}
+
+
+.list{ width:1000px; margin:0 auto; padding-top:10px;}
+.list .column{ width:175px; float:left; margin-left:31px;}
+.list .columnFirst{margin-left:0px;}
+.list h1{ font-size:24px; font-weight:100; color:#202020; font-family:微软雅黑;}
+.list .column .group{ margin-top:20px;}
+.list li{ width:175px; float:left; margin-top:12px; border-bottom:1px dotted #80ff80; padding-bottom:5px;}
+.list a{ color:#000000; text-decoration:none; font-size:14px;}
+.list p{ color:#aaaaaa; margin-top:5px; line-height:18px;}
+.list a:hover{ color:#ff5e2a; text-decoration:underline;}
+
+
+.foot{
+    text-align:center;
+    margin-top:50px;
+    line-height:25px;
+    background-color:#505050;
+    color:#999999;
+    padding-top:10px;
+    padding-bottom:10px;
+}
