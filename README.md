@@ -1,5 +1,5 @@
 # navi
-Navigation Page For Programmers
+Navigation page for programmers
 
 ## Address
 
